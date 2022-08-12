@@ -1,0 +1,52 @@
+[
+    {
+        "keywords": [
+            "hola",
+            "hola!",
+            "ola",
+            "salud",
+            "buenos días",
+            "buenas tardes",
+            "buenas noches"
+        ],
+        "key": "STEP_1"
+    },
+    {
+        "keywords": [
+            "si",
+            "so"
+        ],
+        "key": "STEP_2"
+    },
+    {
+        "keywords": [
+            "se contacto",
+            "se contactó"
+        ],
+        "key": "STEP_2_1"
+    },
+    {
+        "keywords": [
+            "1234"
+        ],
+        "key": "STEP_0"
+    },
+    {
+        "keywords": [
+            "no",
+            "ni"
+        ],
+        "key": "STEP_3"
+    },
+    {
+        "keywords": [
+            "estoy con un cliente",
+            "estoy fuera de la oficina",
+            "hora de comida",
+            "no podemos dar el servicio",
+            "no contesto el cliente",
+            "datos de contacto incorrecto"
+        ],
+        "key": "STEP_0"
+    }
+]
