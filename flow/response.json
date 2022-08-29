@@ -1,4 +1,18 @@
 {
+    "saludo": {
+        "replyMessage": [
+            "Esto no es un juego, por favor, ponte a trabajar.."
+        ],
+        "media": null,
+        "trigger": null
+    },  
+    "error": {
+        "replyMessage": [
+            "Algo salió mal, vuelve a mandar el mensaje por defecto."
+        ],
+        "media": null,
+        "trigger": null
+    },
     "DEFAULT": {
         "replyMessage": [
             "No entendí eso, repitelo por favor."
@@ -6,27 +20,30 @@
         "media": null,
         "trigger": null
     },
-    "STEP_0": {
-        "replyMessage": [
-            "Gracias, hasta luego."
-        ],
-        "media": null,
-        "trigger": null
-    },
     "STEP_1": {
         "replyMessage": [
-            "!Hola vendedor!\n",
-            "¿Quieres aceptar una la solicitud?\n",
-            "Escribe *Si* o *No*"
+            "Hola soy el vendedor 0 Nombre apellido\n",
+            "y acepto la solicitud 14 ¿si o no? si"
+
         ]
+    },
+    "STEP_2_old": {
+        "replyMessage": [
+            "¿Se contactó al cliente? \n",
+            "1.- *Se contactó*  \n",
+            "2.- *No podemos dar el servicio* \n",
+            "3.- *No contesto el cliente* \n",
+            "4.- *Datos de contacto incorrectos* "
+        ],
+        "media": "",
+        "trigger": null
     },
     "STEP_2": {
         "replyMessage": [
-            "¿Se contactó al cliente? \n",
-            "- *Se contactó*  \n",
-            "- *No podemos dar el servicio* \n",
-            "- *No contesto el cliente* \n",
-            "- *Datos de contacto incorrectos* "
+            "¿Se realizó la cotización? \n",
+            "1.- Si \n",
+            "2.- No"
+          
         ],
         "media": "",
         "trigger": null
@@ -38,14 +55,31 @@
         "media": "",
         "trigger": null
     },
+    "STEP_2_2": {
+        "replyMessage": [
+            "¿Por que? \n",
+            "1.- *No podemos dar el servicio* \n",
+            "2.- *No contesto el cliente* \n",
+            "3.- *Datos de contacto incorrectos* "
+        ],
+        "media": "",
+        "trigger": null
+    },
     "STEP_3": {
         "replyMessage": [
             "¿Motivo? \n",
-            "- *Estoy con un cliente* \n",
-            "- *Estoy fuera de la oficina* \n", 
-            "- *Hora de comida* "
+            "X- *Estoy con un cliente* \n",
+            "Y- *Estoy fuera de la oficina* \n", 
+            "Z- *Hora de comida* "
         ],
         "media": "",
+        "trigger": null
+    },
+    "STEP_0": {
+        "replyMessage": [
+            "Gracias, hasta luego."
+        ],
+        "media": null,
         "trigger": null
     }
 }

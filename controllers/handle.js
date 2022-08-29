@@ -4,7 +4,7 @@ const https = require('https'); // or 'https' for https:// URLs
 const fs = require('fs');
 const qr = require('qr-image')
 
-const MULTI_DEVICE = process.env.MULTI_DEVICE || 'true';
+//const MULTI_DEVICE = process.env.MULTI_DEVICE || 'true';
 
 const cleanNumber = (number) => {
     number = number.replace('@c.us', '');

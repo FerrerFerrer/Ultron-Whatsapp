@@ -9,14 +9,7 @@
             "buenas tardes",
             "buenas noches"
         ],
-        "key": "STEP_1"
-    },
-    {
-        "keywords": [
-            "si",
-            "so"
-        ],
-        "key": "STEP_2"
+        "key": "saludo"
     },
     {
         "keywords": [
@@ -33,19 +26,15 @@
     },
     {
         "keywords": [
-            "no",
-            "ni"
-        ],
-        "key": "STEP_3"
-    },
-    {
-        "keywords": [
             "estoy con un cliente",
             "estoy fuera de la oficina",
             "hora de comida",
             "no podemos dar el servicio",
             "no contesto el cliente",
-            "datos de contacto incorrecto"
+            "datos de contacto incorrecto",
+            "x",
+            "y",
+            "z"
         ],
         "key": "STEP_0"
     }
